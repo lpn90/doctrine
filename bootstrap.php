@@ -49,7 +49,7 @@ $em = EntityManager::create(
         'host'    => 'localhost',
         'port'    => '3306',
         'user'    => 'root',
-        'password'  => 'P1nt3ch@052016',
+        'password'  => '',
         'dbname'  => 'trilhando_doctrine',
     ),
     $config,
