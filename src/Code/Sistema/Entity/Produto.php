@@ -3,35 +3,30 @@
 namespace Code\Sistema\Entity;
 
 use \Code\Sistema\Entity\Interfaces\ProdutoInterface;
-use \Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="produtos")
  */
-
 class Produto implements ProdutoInterface
 {
-
     /**
      * @ORM\Id
      * @ORM\Column(type="integer")
      * @ORM\GeneratedValue
      */
     private $id;
-
     /**
      * @ORM\Column(type="string", length=255)
      */
     private $nome;
-
     /**
      * @ORM\Column(type="string", length=255)
      */
     private $descricao;
-
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="float")
      */
     private $valor;
 

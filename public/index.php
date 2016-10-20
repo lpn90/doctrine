@@ -21,7 +21,7 @@ $app['produtoService'] = function() use ($app){
     $produtoEntity = new \Code\Sistema\Entity\Produto();
     $produtoMapper = new \Code\Sistema\Mapper\ProdutoMapper($con->get());
 
-    return new \Code\Sistema\Service\ProductService($produtoEntity, $produtoMapper);
+    return new \Code\Sistema\Service\ProdutoService($produtoEntity, $produtoMapper);
 };
 
 
@@ -96,7 +96,7 @@ $app->delete('/api/produtos/delete/{id}', function($id) use ($app){
 //Cria rota para a index
 $app->get('/', function () use ($app) {
 
-      return $app['twig']->render('home/index.twig', array(
+    return $app['twig']->render('home/index.twig', array(
 
     ));
 

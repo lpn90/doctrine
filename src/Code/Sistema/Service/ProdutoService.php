@@ -1,13 +1,20 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: rogerio
+ * Date: 27/11/14
+ * Time: 21:43
+ */
 
 namespace Code\Sistema\Service;
 
 use Code\Sistema\Entity\Interfaces\ProdutoInterface;
 use Code\Sistema\Mapper\Interfaces\MapperInterface;
-use Code\Sistema\Service\Interfaces\ProdutoServiceInterface;
+use \Code\Sistema\Service\Interfaces\ProdutoServiceInterface;
 
 class ProdutoService implements ProdutoServiceInterface
 {
+
         private $produto;
         private $mapper;
 

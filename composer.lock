@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e8e82f9653325fe6cf989cb1cd609fc",
+    "content-hash": "2c8b89571d8014e64538f87bc265e4da",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1446,12 +1446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ed5506e3c6f3e4f270bd9d7b7e54aea785f92ddb"
+                "reference": "09aa73f2f2bdcd8cdfb08bc22c42a0eaf433da17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ed5506e3c6f3e4f270bd9d7b7e54aea785f92ddb",
-                "reference": "ed5506e3c6f3e4f270bd9d7b7e54aea785f92ddb",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/09aa73f2f2bdcd8cdfb08bc22c42a0eaf433da17",
+                "reference": "09aa73f2f2bdcd8cdfb08bc22c42a0eaf433da17",
                 "shasum": ""
             },
             "require": {
@@ -1499,7 +1499,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-18 00:56:52"
+            "time": "2016-10-20 15:17:54"
         }
     ],
     "packages-dev": [],

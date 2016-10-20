@@ -3,7 +3,6 @@
 
 require_once "vendor/autoload.php";
 
-
 use Doctrine\ORM\Tools\Setup,
     Doctrine\ORM\EntityManager,
     Doctrine\Common\EventManager as EventManager,
@@ -46,10 +45,10 @@ $evm = new Doctrine\Common\EventManager();
 $em = EntityManager::create(
     array(
         'driver'  => 'pdo_mysql',
-        'host'    => 'localhost',
+        'host'    => '127.0.0.1',
         'port'    => '3306',
         'user'    => 'root',
-        'password'  => '',
+        'password'  => 'P1nt3ch@052016',
         'dbname'  => 'trilhando_doctrine',
     ),
     $config,
